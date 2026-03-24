@@ -1,0 +1,633 @@
+﻿<!doctype html>
+<html lang="en" data-theme="auto">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio website" />
+    <title>M Faseeh — Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- LOADING SCREEN -->
+    <div id="loadingScreen" class="loading-screen" aria-live="polite" aria-busy="true">
+      <div class="loading-panel" role="status" aria-label="Loading portfolio">
+        <div class="loading-logo" aria-hidden="true"></div>
+        <div class="loading-text">Loading portfolio…</div>
+        <div class="loading-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" data-loading-bar>
+          <span class="loading-bar-fill" data-loading-fill></span>
+        </div>
+        <div class="loading-subtext" data-loading-sub>Just a sec.</div>
+      </div>
+    </div>
+
+    <a class="skip-link" href="#about">Skip to content</a>
+
+    <header class="site-header" data-elevate>
+      <div class="container header-inner">
+        <a class="brand" href="#hero" aria-label="Go to top">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-name">M Faseeh</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary navigation">
+          <button class="hamburger" type="button" aria-label="Open menu" aria-expanded="false" data-hamburger>
+            <span class="hamburger-lines" aria-hidden="true"></span>
+          </button>
+
+          <ul class="nav-list" data-nav-list>
+            <li><a href="#about" data-nav-link>About</a></li>
+            <li><a href="#projects" data-nav-link>Projects</a></li>
+            <li><a href="#experience" data-nav-link>Experience</a></li>
+            <li><a href="#education" data-nav-link>Education</a></li>
+            <li><a href="#contact" data-nav-link>Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <button class="theme-toggle" type="button" aria-label="Toggle theme" data-theme-toggle>
+            <span class="theme-toggle-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- HERO -->
+      <section class="section hero" id="hero" aria-label="Hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow" data-reveal>Minimal. Fast. Built for impact.</div>
+            <h1 class="hero-title" data-reveal>
+              Hi, I am <span class="accent">Muhammad Faseeh</span>.
+              <span class="hero-title-sub">I design & build modern web experiences.</span>
+            </h1>
+
+            <p class="hero-lead" data-reveal>
+              I focus on clean UI, scalable front-end architecture, and thoughtful user journeys.
+              Let’s create something that feels effortless.
+            </p>
+
+            <div class="hero-cta" data-reveal>
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a class="btn btn-ghost" href="#contact">Contact Me</a>
+            </div>
+
+            <div class="hero-badges" data-reveal aria-label="Highlights">
+              <div class="badge">
+                <div class="badge-value" data-count="4">3+</div>
+                <div class="badge-label">Years Building</div>
+              </div>
+              <div class="badge">
+                <div class="badge-value" data-count="25">7+</div>
+                <div class="badge-label">Projects</div>
+              </div>
+              <div class="badge">
+                <div class="badge-value" data-count="10">4+</div>
+                <div class="badge-label">Client Teams</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual" data-reveal data-tilt>
+            <div class="avatar-ring" aria-hidden="true">
+              <div class="avatar" data-avatar>
+                <img src="./images/up.svg" alt="Your portrait" loading="eager" />
+              </div>
+            </div>
+
+            <div class="hero-card">
+              <div class="hero-card-top">
+                <span class="dot" aria-hidden="true"></span>
+                <span class="hero-card-title">Available for opportunities</span>
+              </div>
+              <p class="hero-card-text">
+                Open to freelance and full-time roles. Fast responses, clean work, clear communication.
+              </p>
+              <div class="hero-card-links">
+                <a class="chip-link" href="#about">Who I am</a>
+                <a class="chip-link" href="#experience">What I do</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+                  <!-- ABOUT -->
+      <section class="section" id="about" aria-label="About me">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Minimal design, deliberate details, and engineering that scales.</p>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-portrait" data-reveal>
+              <div class="portrait-frame">
+                <div class="portrait-gradient" aria-hidden="true"></div>
+                <div class="portrait-text">
+                  <div class="portrait-name">Muhammad Faseeh</div>
+                  <div class="portrait-role">Front-End Developer</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-copy" data-reveal>
+              <p class="prose">I build interfaces that look great, feel smooth, and remain maintainable as products evolve. My approach blends design sensibility with practical engineering: strong component boundaries, accessible interactions, and performance-aware patterns.</p>
+              <p class="prose">I enjoy turning complex requirements into simple flows so users understand value instantly.</p>
+
+              <div class="skills" aria-label="Core skills">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">Accessibility</span>
+                <span class="skill">UI Architecture</span>
+                <span class="skill">Performance</span>
+              </div>
+
+              <div class="about-links">
+                <a class="btn btn-ghost" href="#projects">See work</a>
+                <a class="btn btn-primary" href="#contact">Let's talk</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="expertise-grid" data-reveal>
+            <div class="expertise-block">
+              <h3 class="expertise-heading">Expertise</h3>
+              <div class="skills" aria-label="Expertise">
+                <span class="skill">On-site Troubleshooting</span>
+                <span class="skill">Logistics</span>
+                <span class="skill">Client Liaison</span>
+                <span class="skill">Crowd Control &amp; Safety Protocols</span>
+                <span class="skill">Registration Platforms (Visit by GES &amp; Evento)</span>
+                <span class="skill">Social Media Strategy</span>
+                <span class="skill">Multi-project Management</span>
+              </div>
+            </div>
+            <div class="expertise-block">
+              <h3 class="expertise-heading">Languages</h3>
+              <div class="skills" aria-label="Languages">
+                <span class="skill">English</span>
+                <span class="skill">Urdu</span>
+                <span class="skill">Arabic</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="section" id="projects" aria-label="Projects">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">A selection of work focused on UX, UI systems, and real-world delivery.</p>
+          </div>
+
+          <div class="project-carousel-wrap" data-reveal>
+            <div class="project-carousel-toolbar">
+              <div class="project-carousel-hint"></div>
+              <div class="project-carousel-actions">
+                <button class="carousel-btn" type="button" aria-label="Previous projects" data-carousel-prev>←</button>
+                <button class="carousel-btn" type="button" aria-label="Next projects" data-carousel-next>→</button>
+                <button class="carousel-toggle" type="button" data-carousel-toggle aria-pressed="false" aria-label="Pause carousel autoplay">
+                  Pause
+                </button>
+              </div>
+            </div>
+
+            <div class="project-carousel" data-project-carousel tabindex="0" aria-label="Project carousel">
+              <article class="card project-card project-slide" data-project data-tilt>
+                <div class="project-media">
+                  <img src="./images/projects/1.svg" alt="Pulse Dashboard project preview" loading="lazy" />
+                </div>
+                <div class="project-body">
+                  <div class="card-top">
+                    <h3 class="card-title">Car Rental Website</h3>
+                    <span class="pill">website</span>
+                  </div>
+                  <p class="card-text">
+                    Easy Fast Reliable Affordable Cars Booking Travel Comfort Secure Service Rental
+                  </p>
+                  <div class="card-meta">
+                    <span class="meta">JavaScript</span>
+                    <span class="meta">CSS Grid</span>
+                    <span class="meta">HTML</span>
+                  </div>
+                  <div class="card-actions">
+                    <button class="btn btn-ghost" type="button" data-project-open data-project-title="Pulse Dashboard">
+                      Details
+                    </button>
+                    <a
+                      class="btn btn-primary"
+                      href="https://youtu.be/9brQCCb3x-M?si=cdHh0SUDsLOaRqch"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Watch Car Rental demo on YouTube"
+                    >
+                      Watch
+                    </a>
+                  </div>
+                </div>
+                <template data-project-template>
+                  <div class="modal-body">
+                    <p class="prose">
+                      Easy Fast Reliable Affordable Cars Booking Travel Comfort Secure Service Rental
+                    </p>
+                    <div class="modal-list">
+                      <div class="modal-item"><strong>Role:</strong> Front-end + UI system</div>
+                      <div class="modal-item"><strong>Tech:</strong> JS, CSS variables</div>
+                    
+                    </div>
+                  </div>
+                </template>
+              </article>
+
+              <article class="card project-card project-slide" data-project data-tilt>
+                <div class="project-media">
+                  <img src="./images/projects/2.svg" alt="Commerce Landing project preview" loading="lazy" />
+                </div>
+                <div class="project-body">
+                  <div class="card-top">
+                    <h3 class="card-title">Car Rental App</h3>
+                    <span class="pill">App</span>
+                  </div>
+                  <p class="card-text">
+                    Convenient Fast Reliable Affordable Cars Booking Travel Mobile Secure Easy Rental
+                  </p>
+                  <div class="card-meta">
+                    <span class="meta">Figma</span>
+                    
+                  </div>
+                  <div class="card-actions">
+                    <button class="btn btn-ghost" type="button" data-project-open data-project-title="Commerce Landing">
+                      Details
+                    </button>
+                    <a class="btn btn-primary" href="https://youtu.be/lG2Mgq_-4e0?si=iWkQ5WzDfT8zR19-" aria-label="Live demo placeholder">Watch</a>
+                  </div>
+                </div>
+                <template data-project-template>
+                  <div class="modal-body">
+                    <p class="prose">
+                                        Convenient Fast Reliable Affordable Cars Booking Travel Mobile Secure Easy Rental
+                    </p>
+                    <div class="modal-list">
+                      <div class="modal-item"><strong>Role:</strong> UI/UX </div>
+                      <div class="modal-item"><strong>Tech:</strong> Figma</div>
+                      
+                    </div>
+                  </div>
+                </template>
+              </article>
+
+              <article class="card project-card project-slide" data-project data-tilt>
+                <div class="project-media">
+                  <img src="./images/projects/4.svg" alt="Design System Starter project preview" loading="lazy" />
+                </div>
+                <div class="project-body">
+                  <div class="card-top">
+                    <h3 class="card-title">F1 Strategy</h3>
+                    <span class="pill">Kaggle</span>
+                  </div>
+                  <p class="card-text">
+                   Datasets MachineLearning DataScience Competitions Analytics Python AI Models Training Community
+                  </p>
+                  <div class="card-meta">
+                    <span class="meta">Python</span>
+                   
+                  </div>
+                  <div class="card-actions">
+                    <button class="btn btn-ghost" type="button" data-project-open data-project-title="Design System Starter">
+                      Details
+                    </button>
+                    <a class="btn btn-primary" href="https://youtu.be/Yn1AXiXSabA?si=2ElmsuFw-DmHblqJ" aria-label="Live demo placeholder">Watch</a>
+                  </div>
+                </div>
+                <template data-project-template>
+                  <div class="modal-body">
+                    <p class="prose">
+                     Datasets MachineLearning DataScience Competitions Analytics Python AI Models Training Community
+                    </p>
+                    <div class="modal-list">
+                      <div class="modal-item"><strong>Role:</strong> Design system</div>
+                      <div class="modal-item"><strong>Tech:</strong> Pyhton</div>
+      
+                    </div>
+                  </div>
+                </template>
+              </article>
+
+              <article class="card project-card project-slide" data-project data-tilt>
+                <div class="project-media">
+                  <img src="./images/projects/5.svg" alt="Checkout Flow project preview" loading="lazy" />
+                </div>
+                <div class="project-body">
+                  <div class="card-top">
+                    <h3 class="card-title">Plastic Pollution</h3>
+                    <span class="pill">Flourish</span>
+                  </div>
+                  <p class="card-text">
+                    Data Visualization Charts Interactive Dashboards Storytelling Graphs Analytics Design Insights Presentation Creative
+                  </p>
+                  <div class="card-meta">
+                    <span class="meta">Flourish</span>
+                
+                  </div>
+                  <div class="card-actions">
+                    <button class="btn btn-ghost" type="button" data-project-open data-project-title="Checkout Flow">
+                      Details
+                    </button>
+                    <a class="btn btn-primary" href="https://youtu.be/_cAPliX6Sfg?si=v1hxtq61yM8FcoIX" aria-label="Live demo placeholder">Watch</a>
+                  </div>
+                </div>
+                <template data-project-template>
+                  <div class="modal-body">
+                    <p class="prose">
+                      Data Visualization Charts Interactive Dashboards Storytelling Graphs Analytics Design Insights Presentation Creative
+                    </p>
+                    <div class="modal-list">
+                      <div class="modal-item"><strong>Role:</strong> Data Visualization</div>
+                      <div class="modal-item"><strong>Tech:</strong> Flourish</div>
+                    
+                    </div>
+                  </div>
+                </template>
+              </article>
+
+              <article class="card project-card project-slide" data-project data-tilt>
+                <div class="project-media">
+                  <img src="./images/projects/6.svg" alt="Insight Map project preview" loading="lazy" />
+                </div>
+                <div class="project-body">
+                  <div class="card-top">
+                    <h3 class="card-title">Fitness CoachBot</h3>
+                    <span class="pill">Chat Bot</span>
+                  </div>
+                  <p class="card-text">
+                    Automation AI Assistant Responses Conversation Support Messaging Smart Replies Help Interactive Communication
+                  </p>
+                  <div class="card-meta">
+                    <span class="meta">Dialog Flow</span>
+                   
+                  </div>
+                  <div class="card-actions">
+                    <button class="btn btn-ghost" type="button" data-project-open data-project-title="Insight Map">
+                      Details
+                    </button>
+                    <a class="btn btn-primary" href="https://youtu.be/WSsa6nvB5JY?si=s1wUTfCY5kFqRrJl" aria-label="Live demo placeholder">Watch</a>
+                  </div>
+                </div>
+                <template data-project-template>
+                  <div class="modal-body">
+                    <p class="prose">
+                      Automation AI Assistant Responses Conversation Support Messaging Smart Replies Help Interactive Communication
+                    </p>
+                    <div class="modal-list">
+                      <div class="modal-item"><strong>Role:</strong> Chat Bot</div>
+                      <div class="modal-item"><strong>Tech:</strong> Dialog Flow</div>
+                      
+                    </div>
+                  </div>
+                </template>
+              </article>
+
+              <article class="card project-card project-slide" data-project data-tilt>
+                <div class="project-media">
+                  <img src="./images/projects/3.svg" alt="Recipe App project preview" loading="lazy" />
+                </div>
+                <div class="project-body">
+                  <div class="card-top">
+                    <h3 class="card-title">AUTOFIX WEB</h3>
+                    <span class="pill">Website</span>
+                  </div>
+                  <p class="card-text">
+                    Repair Service Cars Maintenance Booking Garage Mechanics Reliable Fast Affordable Diagnostics Parts
+                  </p>
+                  <div class="card-meta">
+                    <span class="meta">html</span>
+                    <span class="meta">CSS</span>
+                    <span class="meta">JavaScript</span>
+                  </div>
+                  <div class="card-actions">
+                    <button class="btn btn-ghost" type="button" data-project-open data-project-title="Recipe App">
+                      Details
+                    </button>
+                    <a class="btn btn-primary" href="https://youtu.be/GNHlarUQjBc?si=kQ2erRKT5rzJlZ32" aria-label="Live demo placeholder">Watch</a>
+                  </div>
+                </div>
+                <template data-project-template>
+                  <div class="modal-body">
+                    <p class="prose">
+                      Repair Service Cars Maintenance Booking Garage Mechanics Reliable Fast Affordable Diagnostics Parts
+                    </p>
+                    <div class="modal-list">
+                      <div class="modal-item"><strong>Role:</strong> Design + front-end</div>
+                      <div class="modal-item"><strong>Tech:</strong> HTML, CSS, JavaScript</div>
+                     
+                    </div>
+                  </div>
+                </template>
+              </article>
+            </div>
+
+            <div class="project-carousel-foot">
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section class="section" id="experience" aria-label="Experience">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <h2 class="section-title">Experience</h2>
+            <p class="section-subtitle">Roles where I shipped user-facing features and strengthened UI foundations.</p>
+          </div>
+
+          <div class="timeline" data-reveal>
+            <div class="t-item">
+              <div class="t-dot" aria-hidden="true"></div>
+              <div class="t-content">
+                <div class="t-top">
+                  <h3 class="t-title">Auction Concierge — AHM Events (Alberta)</h3>
+                  <span class="t-year">12/2025 — 12/2025</span>
+                </div>
+                <ul class="t-list">
+                  <li>Showcased high-value emerald gemstones to collectors, providing detailed technical insights on quality, grading, and valuation to drive informed bidding.</li>
+                  <li>Engaged with high-net-worth clients to build trust, offering professional guidance on purchasing preferences and ensuring a premium service experience.</li>
+                  <li>Facilitated seamless auction operations, assisting buyers with bidding procedures, rules, and inquiries to ensure smooth transactions.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="t-item">
+              <div class="t-dot" aria-hidden="true"></div>
+              <div class="t-content">
+                <div class="t-top">
+                  <h3 class="t-title">Event Coordinator Assistant — MOTUS ONE</h3>
+                  <span class="t-year">11/2025 — 11/2025</span>
+                </div>
+                <ul class="t-list">
+                  <li>Directed and guided runners, ensuring they followed the correct path and had necessary support.</li>
+                  <li>Managed crowd control, maintaining safety and order along the race route.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="t-item">
+              <div class="t-dot" aria-hidden="true"></div>
+              <div class="t-content">
+                <div class="t-top">
+                  <h3 class="t-title">Crowd Management Coordinator — SS Events</h3>
+                  <span class="t-year">03/2023 — 08/2023</span>
+                </div>
+                <ul class="t-list">
+                  <li>Managed traffic control and road closures, ensuring safe and efficient access to event venues.</li>
+                  <li>Directed attendees, providing clear guidance and support to ensure smooth event flow.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section class="section" id="education" aria-label="Education">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <h2 class="section-title">Education</h2>
+            <p class="section-subtitle">Foundations that shaped my engineering and design thinking.</p>
+          </div>
+
+          <div class="cards-grid education-grid" data-reveal>
+            <article class="card">
+              <h3 class="card-title">Bachelor in Computer Science</h3>
+              <p class="card-text">Bath Spa University, Ras Al Khaimah — 2023 to 2026</p>
+              <div class="card-meta">
+                <span class="meta">Computer Science</span>
+              </div>
+            </article>
+            <article class="card">
+              <h3 class="card-title">Diploma</h3>
+              <p class="card-text">Bath Spa University, Ras Al Khaimah — 2022 to 2023</p>
+              <div class="card-meta">
+                <span class="meta">Foundation Studies</span>
+              </div>
+            </article>
+            <article class="card">
+              <h3 class="card-title">A Levels — Grade 9 &amp; 10</h3>
+              <p class="card-text">Bath Spa University, Ras Al Khaimah — 2021</p>
+              <div class="card-meta">
+                <span class="meta">Grade 9</span>
+                <span class="meta">Grade 10</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section contact" id="contact" aria-label="Contact me">
+        <div class="container">
+          <div class="section-head contact-head" data-reveal>
+            <h2 class="section-title">Contact Me</h2>
+            <p class="section-subtitle">
+              Want to build something? Send a message and I’ll get back to you.
+            </p>
+          </div>
+
+          <div class="contact-grid" data-reveal>
+            <div class="contact-card">
+              <form id="contactForm" class="form" novalidate>
+                <div class="field-row">
+                  <div class="field">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" autocomplete="name" required />
+                    <div class="field-error" data-error-for="name" aria-live="polite"></div>
+                  </div>
+                  <div class="field">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" autocomplete="email" required />
+                    <div class="field-error" data-error-for="email" aria-live="polite"></div>
+                  </div>
+                </div>
+
+                <div class="field">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" rows="5" required></textarea>
+                  <div class="field-error" data-error-for="message" aria-live="polite"></div>
+                </div>
+
+                <div class="form-actions">
+                  <button class="btn btn-primary" type="submit">Send Message</button>
+                  <a class="btn btn-ghost" href="mailto:Faseehzhd@gmail.com">Email Instead</a>
+                </div>
+
+                <p class="form-note" id="formNote" aria-live="polite"></p>
+              </form>
+            </div>
+
+            <div class="contact-side">
+              <div class="contact-mini">
+                <div class="mini-title">Quick Links</div>
+                <a class="mini-link" href="#projects">Portfolio Projects</a>
+                <a class="mini-link" href="#experience">Experience Timeline</a>
+                <a class="mini-link" href="#education">Education</a>
+              </div>
+
+              <div class="contact-mini">
+                <div class="mini-title">Social</div>
+                <a class="mini-link" href="https://www.instagram.com/mfaseeh15/" target="_blank" rel="noopener">Instagram</a>
+                <a class="mini-link" href="https://www.facebook.com/muhammad.faseeh.817699/" target="_blank" rel="noopener">Facebook</a>
+                <a class="mini-link" href="https://www.linkedin.com/in/muhammad-faseeh-53772a2a2/" target="_blank" rel="noopener">LinkedIn</a>
+              </div>
+
+              <div class="contact-mini">
+                <div class="mini-title">Email</div>
+                <button class="copy-btn" type="button" data-copy-email data-email="faseehzhd@gmail.com">
+                  Copy: <span class="mono">faseehzhd@gmail.com</span>
+                </button>
+                <div class="copy-toast" data-copy-toast aria-live="polite"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" aria-label="Footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <div class="footer-brand">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span>M Faseeh</span>
+          </div>
+          <div class="footer-copy">© <span id="year"></span> Muhammad Faseeh. All rights reserved.</div>
+        </div>
+        <div class="footer-right">
+          <a href="#hero" class="footer-link">Back to top</a>
+          <button class="footer-link btn-link" type="button" data-theme-toggle-footer>Theme</button>
+        </div>
+      </div>
+    </footer>
+
+    <!-- PROJECT MODAL -->
+    <div class="modal" role="dialog" aria-modal="true" aria-label="Project details" data-modal hidden>
+      <div class="modal-backdrop" data-modal-close></div>
+      <div class="modal-panel" role="document">
+        <div class="modal-head">
+          <h3 class="modal-title" data-modal-title>Project</h3>
+          <button class="icon-btn" type="button" aria-label="Close modal" data-modal-close>
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-content" data-modal-content>
+          <!-- injected -->
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

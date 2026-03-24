@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#336bff" stop-opacity="0.95" />
+      <stop offset="0.55" stop-color="#66ffcc" stop-opacity="0.88" />
+      <stop offset="1" stop-color="#0b0c10" stop-opacity="1" />
+    </linearGradient>
+    <radialGradient id="r" cx="70%" cy="25%" r="60%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)" />
+  <rect width="1200" height="800" fill="url(#r)" />
+  <g opacity="0.38" fill="#ffffff">
+    <rect x="120" y="170" width="440" height="28" rx="14" />
+    <rect x="120" y="220" width="620" height="18" rx="9" />
+    <rect x="120" y="255" width="520" height="18" rx="9" />
+    <rect x="120" y="290" width="420" height="18" rx="9" />
+  </g>
+  <g opacity="0.95" stroke="#ffffff" stroke-opacity="0.55" stroke-width="6" fill="none">
+    <rect x="720" y="460" width="320" height="180" rx="22" />
+    <path d="M770 540 C 800 505, 860 515, 900 485 C 930 463, 980 475, 1010 510" />
+  </g>
+  <text x="120" y="120" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="46" fill="rgba(255,255,255,0.85)" font-weight="850">
+    Commerce Landing
+  </text>
+</svg>
+

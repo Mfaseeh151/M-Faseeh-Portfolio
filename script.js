@@ -53,7 +53,7 @@
   if (loadingScreen) {
     document.body.classList.add("is-loading");
     const startTs = performance.now();
-    const minShowMs = prefersReducedMotion ? 450 : 3200;
+    const minShowMs = prefersReducedMotion ? 150 : 800;
     let progress = 0;
     const setProgress = (value) => {
       progress = Math.max(0, Math.min(100, value));
